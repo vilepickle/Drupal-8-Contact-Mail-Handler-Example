@@ -4,13 +4,7 @@ namespace Drupal\example_contact;
 
 use Drupal\contact\MessageInterface;
 use Drupal\contact\MailHandler as ContactMailHandler;
-use Drupal\Core\Entity\EntityManagerInterface;
-use Drupal\Core\Language\LanguageManagerInterface;
-use Drupal\Core\Mail\MailManagerInterface;
 use Drupal\Core\Session\AccountInterface;
-use Drupal\Core\StringTranslation\StringTranslationTrait;
-use Drupal\Core\StringTranslation\TranslationInterface;
-use Psr\Log\LoggerInterface;
 
 /**
  * Provides a class for handling assembly and dispatch of contact mail messages.
