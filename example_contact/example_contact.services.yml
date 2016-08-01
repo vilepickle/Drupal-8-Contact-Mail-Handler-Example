@@ -1,0 +1,4 @@
+services:
+  example_contact.mail_handler:
+    class: Drupal\example_contact\ExampleMailHandler
+    arguments: ['@plugin.manager.mail', '@language_manager', '@logger.channel.contact', '@string_translation', '@entity.manager']

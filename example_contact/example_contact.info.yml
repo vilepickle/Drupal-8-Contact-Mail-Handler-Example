@@ -1,0 +1,7 @@
+name: Example Contact Override
+type: module
+description: "Provides custom functionality for contact forms."
+package: Example
+version: '8.x-1.0'
+core: '8.x'
+project: 'example_contact'
